@@ -1,4 +1,4 @@
-# go-http-from-scratch
+# httpfromtcp
 
 A learning project where I implement a minimal HTTP server in **Go**, starting from raw **TCP sockets** instead of relying on Go’s built-in `net/http` package.
 The goal is to deeply understand how HTTP works at the protocol level and how data flows between a client and a server over the network.
@@ -7,7 +7,7 @@ The goal is to deeply understand how HTTP works at the protocol level and how da
 
 ## 🚀 Motivation
 
-Most Go developers rely on `net/http` for building servers, but that abstracts away a lot of the lower-level details.
+Most Go developers rely on `net/http` for building servers, but that abstracts away a lot of the lower-level details. Special thanks to boot.dev as this project is a follow along to their course Learn HTTP Protocol in Go.
 This project is my attempt to peel back the layers and learn:
 
 - How TCP connections are established and handled
@@ -26,17 +26,3 @@ This project is my attempt to peel back the layers and learn:
 - Build a deeper intuition for how modern web servers work under the hood
 
 ---
-
-## 🛠 Features (Planned)
-
-- [x] Open a TCP socket and listen for connections
-- [x] Accept multiple client requests
-- [ ] Parse HTTP request lines (method, path, version)
-- [ ] Parse request headers
-- [ ] Respond with a minimal HTTP response
-- [ ] Support basic routes (e.g., `/`, `/about`)
-- [ ] Graceful shutdown and logging
-
----
-
-## 📂 Project Structure (planned)

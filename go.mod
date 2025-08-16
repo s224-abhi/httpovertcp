@@ -1,3 +1,3 @@
-module github.com/abhi-224/go-http-from-scratch
+module github.com/abhi-224/httpfromtcp
 
 go 1.24.6
