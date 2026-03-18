@@ -1,4 +1,4 @@
-module github.com/abhi-224/httpfromtcp
+module github.com/s224-abhi/registered-nurse
 
 go 1.24.6
 
